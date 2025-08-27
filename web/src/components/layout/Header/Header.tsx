@@ -13,9 +13,9 @@ import * as React from 'react';
 import { FaCartShopping } from 'react-icons/fa6';
 import { MdCategory } from 'react-icons/md';
 
-export interface IAppProps {}
 
-export default function Header(props: IAppProps) {
+
+export default function Header() {
   return (
     <div className="border border-gray-200">
       <div className="flex justify-between gap-3 py-2 md:max-w-[1100px] md:mx-auto">
