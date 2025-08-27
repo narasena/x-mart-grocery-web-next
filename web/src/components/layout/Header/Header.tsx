@@ -1,3 +1,4 @@
+import Logo from '@/components/logo/Logo';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { Input } from '@/components/ui/input';
 import {
@@ -18,10 +19,7 @@ export default function Header(props: IAppProps) {
   return (
     <div className="border border-gray-200">
       <div className="flex justify-between gap-3 py-2 md:max-w-[1100px] md:mx-auto">
-        <div className="flex flex-col text-sm">
-          <span className="font-bold">{`X-Mart`}</span>
-          <span className="text-xs uppercase">Grocery</span>
-        </div>
+        <Logo/>
         <Input placeholder="Search..." className="md:w-full" />
         <NavigationMenu viewport={false}>
           <NavigationMenuList>

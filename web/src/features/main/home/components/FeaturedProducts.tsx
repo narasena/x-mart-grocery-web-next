@@ -9,12 +9,11 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 
-export interface IAppProps {
-}
 
-export default function FeaturedProducts (props: IAppProps) {
+
+export default function FeaturedProducts () {
   return (
-    <Card>
+    <Card className='w-full'>
       <CardHeader>
         <CardTitle>Card Title</CardTitle>
         <CardDescription>Card Description</CardDescription>
